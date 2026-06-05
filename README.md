@@ -60,7 +60,7 @@ The main objectives of the study are:
 - VAR was identified as the preferred forecasting model for this dataset.
 
 
-## Technology used
+## Technologies used
 - Python
 - Pandas
 - Numpy
@@ -71,10 +71,7 @@ The main objectives of the study are:
 - Jupyter Notebook
 
 ## Result Summary
-- The forecasting performance of both models was evaluated using out-of-sample predictions and RMSE metrics.
-- While both VAR and SARIMA were able to capture the general behavior of the series, the VAR model produced more accurate forecasts and achieved lower forecasting errors. 
-- This suggests that incorporating the interaction between Bitcoin and Crypto Crash search activity provides additional predictive information. 
-- Overall, the VAR model was found to be the more effective approach for forecasting Google Trends data in this study.
+The forecasting performance of both models was evaluated using out-of-sample predictions and RMSE metrics. While both VAR and SARIMA captured the overall behavior of the series, the VAR model produced more accurate forecasts and lower forecasting errors. This suggests that incorporating the interaction between Bitcoin and Crypto Crash search activity provides additional predictive information. Overall, the VAR model was found to be the more effective approach for forecasting Google Trends data in this study.
 
 ## Limitations
 - Google Trends measures public search interest rather than actual cryptocurrency prices or trading activity.
